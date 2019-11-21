@@ -1,0 +1,45 @@
+body{
+	font-family: 'segeo ui light';
+}
+.item{
+	position: relative;
+}
+.item-caption{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	right: 10px;
+	background-color: #fff;
+	padding: 10px
+}
+.lightbox{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	background-color: rgba(0,0,0,.7);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	display: none;
+}
+.show{
+	display: flex;
+}
+.lightboxContainer{
+	width: 50%;
+	height: 500px;
+	/*background-image: url(../images/team-4.jpg);*/
+}
+#close{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background-color: black;
+	color: #fff;
+}
+#next,#pre{
+	background-color: black;
+	color: #fff;	
+}
